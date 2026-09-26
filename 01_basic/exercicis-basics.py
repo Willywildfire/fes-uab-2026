@@ -8,7 +8,7 @@ print("Escriu un programa que imprimeixi el teu nom i la teva ciutat en línies 
 
 ### Completa aquí
 
-print("--------------")
+print("Arnau\nMataró")
 
 print("\nExercici 2: Mostra els tipus de dades de les variables següents:")
 print("Utilitza la comanda 'type()' per determinar el tipus de dades de cada variable.")
@@ -20,7 +20,7 @@ e = None
 
 ### Completa aquí
 
-print("--------------")
+print(type(a),type(b),type(c),type(d),type(e), sep="\n")
 
 print("\nExercici 3: Conversió de tipus")
 print("Converteix la cadena \"12345\" a un enter i després a un float.")
@@ -28,7 +28,7 @@ print("Converteix el float 3.99 a un enter. Què passa?")
 
 ### Completa aquí
 
-print("--------------")
+print(int("12345"),float("12345"),int(3.99), sep="\n")
 
 print("\nExercici 4: Variables")
 print("Crea variables per al teu nom, edat i alçada.")
@@ -39,8 +39,9 @@ print("Utilitza f-strings per imprimir una presentació.")
 #age = 38
 
 ### Completa aquí
-
-print("--------------")
+nom = Arnau
+edat = 19
+print(f"Hola! Em dic {nom}, tinc {edat}")
 
 print("\nExercici 5: Nombres")
 print("1. Crea una variable amb el nombre PI (sense assignar una variable)")
