@@ -36,3 +36,4 @@ print(42)
 
 # # ✅ Solució 3: Utilitzar cometes triples per definir la cadena
 # print("""Això és una "polzada" dins d'una cadena amb cometes triples""")
+
