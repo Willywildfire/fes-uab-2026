@@ -151,11 +151,24 @@ es_fin_de_semana = False
 # Ejercicio 1: Determinar el mayor de dos números
 # Pide al usuario que introduzca dos números y muestra un mensaje
 # indicando cuál es mayor o si son iguales
+numero1 = input("introdueix el primer numero\n")
+numero2 = input("segon numero\n")
+if numero1 > numero2:
+  print("el primer numero és més gran")
+elif numero1 < numero2:
+  print("el segon numero es mes gran")
+else:
+  print("els dos son iguals")
+
+  
+
+
 
 
 # Ejercicio 2: Calculadora simple
 # Pide al usuario dos números y una operación (+, -, *, /)
 # Realiza la operación y muestra el resultado (maneja la división entre zero)
+
 
 # Ejercicio 3: Año bisiesto
 # Pide al usuario que introduzca un año y determina si es bisiesto.
