@@ -5,6 +5,19 @@
 # Exercici 1: Determinar el més gran de dos nombres
 # Demana a l'usuari que introdueixi dos nombres i mostra un missatge
 # que indiqui quin és més gran o si són iguals.
+print("Exercici 1: Determinar el més gran de dos nombres")
+num1 = input("Introdueix el primer nombre: ")
+num2 = input("Introduix el segon nombre: ")
+if num1 < num2 :
+    print("el segon nombre és més gran")
+elif num1 > num2 :
+    print("el primer nombre és més gran")
+else:
+    print("els dos son iguals")
+
+
+
+
 
 # Exercici 2: Calculadora senzilla
 # Demana a l'usuari dos nombres i una operació (+, -, *, /).

@@ -56,8 +56,7 @@ print(llista1[::-1]) # retorna els elements en ordre invers
 # Modificar una llista
 llista1[0] = 20
 print(llista1)
-# Compte: si l'índex no existeix, per exemple:
-llista1[10] = 100 # Error
+# Compte: si l'índex no existeix, per exemple: # Error
 # Python no permet afegir elements a una llista mitjançant un índex.
 
 # Afegir elements a una llista
