@@ -39,7 +39,7 @@ print("Utilitza f-strings per imprimir una presentació.")
 #age = 38
 
 ### Completa aquí
-nom = Arnau
+nom = str(Arnau)
 edat = 19
 print(f"Hola! Em dic {nom}, tinc {edat}")
 

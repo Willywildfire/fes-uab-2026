@@ -4,15 +4,36 @@
 
 # Exercici 1: Compte enrere
 # Imprimeix els números del 10 a l'1 fent servir un bucle while.
+print("hola")
+numero = 0
+while numero <= 10:
+    print(f"loop numero:{numero}")
+    numero += 1
+
 
 # Exercici 2: Suma de números parells (while)
 # Calcula la suma dels números parells entre 1 i 20 (inclosos) fent servir un bucle while.
-
+numero = 0
+suma= 0
+while numero <=19 :
+    inici = 2
+    suma = suma + inici
+    inici += 2
+    numero += 1
+print(f"suma és igua a : {suma}")
 # Exercici 3: Factorial d'un número
 # Demana a l'usuari que introdueixi un número enter positiu.
 # Calcula el seu factorial fent servir un bucle while.
 # El factorial d'un número enter positiu és el producte de tots els números de l'1 fins a aquest número. Per exemple, el factorial de 5
 # 5! = 5 x 4 x 3 x 2 x 1 = 120.
+contador = 1
+multi = 1
+valor = int(input("numero per fer factorial"))
+while contador <= valor :
+    multi = multi * contador
+   
+    contador += 1
+print(f"valor: {multi}")
 
 # Exercici 4: Validació de contrasenya
 # Demana a l'usuari que introdueixi una contrasenya.
