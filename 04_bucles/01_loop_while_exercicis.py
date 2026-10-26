@@ -40,15 +40,33 @@ print(f"valor: {multi}")
 # La contrasenya ha de tenir almenys 8 caràcters.
 # Fes servir un bucle while per continuar demanant la contrasenya fins que compleixi els requisits.
 # Si la contrasenya és vàlida, imprimeix "Contrasenya vàlida".
+contrasenya = input("Introdueix una contrasenya d'almenys 8 caracters")
+while len(contrasenya) <= 8 : 
+    print("contrasenya incorecta")
+    contrasenya = input("Introdueix una contrasenya d'almenys 8 caracters")
+
+
 
 # Exercici 5: Taula de multiplicar
 # Demana a l'usuari que introdueixi un número.
 # Imprimeix la taula de multiplicar d'aquest número (de l'1 al 10) fent servir un bucle while.
+taula = int(input("introduieix un numero per ficarte la taula de multiplicar"))
+numero = 0
+while numero <= 10 :
+    valor2 = numero * taula
+    print(f"{taula}X{numero}={valor2}")
+    numero += 1
 
 # Exercici 6: Números primers fins a N
 # Demana a l'usuari que introdueixi un número enter positiu N.
 # Imprimeix tots els números primers menors o iguals que N fent servir un bucle while.
 # Un número és primer si només és divisible per 1 i per ell mateix.
+positiu = int(input("INtroduieix un numero enter posiitu per fer els numeros primers"))
+numero = 1
+while numero <= positiu :
+    if numero % 2 != 0 and numero % 3 != 0 and numero % 5 != 0 and numero % 7 != 0 :
+        print(f"numero: {numero}")
+    numero += 1
 
 # Exercici 7: Suma fins al zero
 # Demana a l'usuari que introdueixi números enters.
