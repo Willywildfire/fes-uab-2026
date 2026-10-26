@@ -72,6 +72,14 @@ while numero <= positiu :
 # Demana a l'usuari que introdueixi números enters.
 # Ves sumant els números introduïts fins que l'usuari introdueixi el 0.
 # Al final, imprimeix la suma total. El 0 només serveix per acabar i no s'ha de sumar.
+suma = 0
+while positiu != 0 :
+    positiu = int(input("Introduieix un numero per sumar(per acabar fica un 0)"))
+    suma += positiu
+print(f"suma total:{suma}")
+
+
+
 
 # Exercici 8: Comptar les xifres d'un número
 # Demana a l'usuari que introdueixi un número enter positiu.
